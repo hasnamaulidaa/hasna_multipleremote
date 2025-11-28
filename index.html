@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Multiple Remote</title>
+</head>
+<body>
+
+    <h1>Latihan Multiple Remote</h1>
+    <p>Ini adalah file index.html untuk latihan Git.</p>
+
+    <p id="info">Belum ada perubahan.</p>
+
+    <button onclick="ubahTeks()">Ubah Teks</button>
+
+    <script>
+        function ubahTeks() {
+            document.getElementById("info").innerHTML = 
+                "Teks sudah diubah pada " + new Date().toLocaleString();
+        }
+    </script>
+
+</body>
+</html>
